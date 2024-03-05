@@ -22,7 +22,7 @@ docker run -d --restart=always -p 8080:8080 --name jonas-amazing-app <tag_name>
 
 ### Ohne Docker
 
-Ich habe Node v20.11.1 undm npm v.10.2.4 verwendet
+Ich habe Node v20.11.1 und npm v.10.2.4 verwendet
 
 First things first:
 
@@ -42,7 +42,7 @@ oder die App bauen (und Unit-Tests ausführen):
 npm run build
 ```
 
-Serve mit Http-Server
+und serve mit Http-Server
 
 ```sh
 npx http-server dist
